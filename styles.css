@@ -1,0 +1,141 @@
+* { 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+body {
+     font-family: 'Work Sans', sans-serif;
+     min-height: 100vh;
+     width: 100%;
+     /* overflow-x: hidden; */
+}
+
+/* Cabecera */
+
+.cabecera {
+     background: linear-gradient(180deg, #769D03 0%, #FFE000 100%);
+     font-weight: bold;
+}
+
+/* Navigation */
+
+nav {
+     background: linear-gradient(180deg, #FFE000  0%, #769D03 100%);
+     
+}
+
+#menu li > a {
+     font-size: 25px;
+     font-weight: regular;
+     color: #41260b;
+}
+
+#menu li > a:hover {
+     font-size: 25px;
+     font-weight: bold;
+     color: #41260b;
+}
+.nav-item {
+     margin:20px;
+}
+
+/* Slider de imagenes */
+
+.carousel-inner {
+     max-height: 39rem;
+}
+
+.wrapper {
+     width: 100%;
+}
+#hero {
+     background: linear-gradient(180deg, rgba(118, 157, 3, 0) 0%, #FFE000 100%);
+}
+.titulo {
+     color: #41260b
+     
+}
+.subtitulo {
+     color: #41260b
+}
+
+.somos {
+     background: linear-gradient(89.45deg, #F9E696 53.49%, rgba(255, 224, 0, 0.7) 99.41%);
+}
+.somos p {
+     margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.programas {
+     background: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+}
+.accordion-button {
+     background-color:lightsteelblue;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+}
+.accordion-collapse {
+     background-color:lightgrey;
+}
+.inscribete {
+     /*background: linear-gradient(90deg, #1FA2FF 0%, #12D8FA 44.79%, #A6FFCB 100%); */
+     background: linear-gradient(90deg, #8ecae6 0%, #219ebc 44.79%, #90e0ef 100%);
+
+}
+.contacto {
+     background: linear-gradient(90deg, #E3F89D 32.81%, #1CE9E9 100%);
+     color: #364461;
+}
+.card {
+     background: linear-gradient(90deg, #1CE9E9 32.81%, #E3F89D  100%); 
+ }    
+ footer {
+     background: linear-gradient(180deg, rgba(118, 157, 3, 0) 0%, #FFE000 100%);
+}
+.pfooter {
+     color: #433700;
+     padding: 0px;
+
+}
+
+.iframe-container{
+     position: relative;
+     width: 100%;
+     /* padding-bottom: 56.25% */; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+ }
+ .whatsapp {
+      color: #25d366;
+ }
+
+ 
+/* Media Queries Pantalla Pequeña */
+@media (max-width: 576px) {
+     #hero {
+          width: 100% !important; 
+     }
+     .fila {
+          width: 100% !important;
+          text-align: center;
+     }
+     .somos {
+          text-align: center;
+     }
+     .contacto {
+          text-align: center;
+     }
+}
+
+@media (max-width: 400px) {
+     .imgInscribete {
+          width: 100% !important;
+     }
+     .iframe-container {
+          width: 100% !important;
+     }
+     footer {
+          text-align: center;
+     }
+}
